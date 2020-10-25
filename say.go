@@ -1,8 +1,9 @@
 package gomodone
 
-import "fmt" 
+import "fmt"
 
 // say Hi to someone
-func SayHi(name string) string {
-   return fmt.Sprintf("Hi, %s", name)
+func SayHi(name string, age int) string {
+	fmt.Println("age is :", age)
+	return fmt.Sprintf("Hi, %s", name)
 }
